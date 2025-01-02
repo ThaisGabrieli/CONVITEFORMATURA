@@ -126,6 +126,11 @@ section p {
         height: 450px;
         overflow: hidden;
         position: relative;
+        flex-shrink: 0;
+    border: none;
+  
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Seção de Galeria */
