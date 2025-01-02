@@ -118,6 +118,15 @@ section p {
     
 }
 
+#mapa {
+    border: 1px solid #000; /* Borda ao redor do mapa */
+    margin: 0; /* Sem margem externa */
+    padding: 0; /* Sem preenchimento interno */
+    width: 100%; /* Para ocupar toda a largura do contêiner */
+    height: 400px; /* Defina a altura desejada */
+    box-sizing: border-box; /* Inclui a borda e o preenchimento no tamanho total */
+}
+
 /* Seção de Galeria */
 /*#galeria {
     padding: 20px;
@@ -182,7 +191,9 @@ section p {
 /* Seção de Contato */
 #contato {
     background: ##e8f8e8;
-    border: 1px solid #ddd;
+    border: 1px solid #ddd
+    color-text: white; /* Definindo a cor do texto como branca */
+}
 
 }
 
