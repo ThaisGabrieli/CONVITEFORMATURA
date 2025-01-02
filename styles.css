@@ -197,8 +197,6 @@ section p {
 }
 
 form {
-    background: ##e8f8e8;
-    display: flex;
     flex-direction: column;
     gap: 15px;
     max-width: 400px;
