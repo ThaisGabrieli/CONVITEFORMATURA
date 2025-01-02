@@ -105,22 +105,18 @@
     </section>-->
 
     <!-- Seção de Contato -->
-         <nav>
-    <section id="contato">
+        <section id="contato">
         <h2>Confirme sua presença!</h2>
-       
-        <form id="formContato" action="#" method="get">
+            <form id="formContato" action="#" method="get">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
             <label for="mensagem">Mensagem:</label>
             <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-           
             <button type="submit" formaction="https://api.whatsapp.com/send" formmethod="get" target="_blank">
                 Enviar via WhatsApp
             </button>
-            
-        </form>
- </nav>        
+             </form>
+      
         <script>
     document.getElementById('formContato').addEventListener('submit', function(event) {
         event.preventDefault(); // Impede o envio padrão do formulário
