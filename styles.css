@@ -117,20 +117,6 @@ section p {
     margin: 10px 0;
     
 }
-/*mapa*/
-.mapa {
-    padding: 20px;
-    border: 1px solid #ddd;
-        width: 50%;
-        max-width: 50%;
-        overflow: hidden;
-        position: relative;
-        flex-shrink: 0;
-    border: none;
-  
-    height: 100%;
-    object-fit: cover;
-}
 
 /* Seção de Galeria */
 /*#galeria {
