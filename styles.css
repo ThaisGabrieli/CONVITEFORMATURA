@@ -117,9 +117,8 @@ section p {
     margin: 10px 0;
     
 }
-
-/* Seção de Galeria */
-#galeria {
+/*mapa*/
+.mapa {
     padding: 20px;
     border: 1px solid #ddd;
         width: 100%;
@@ -127,36 +126,47 @@ section p {
         height: 450px;
         overflow: hidden;
         position: relative;
-      }
+}
+
+/* Seção de Galeria */
+/*#galeria {
+    padding: 20px;
+    border: 1px solid #ddd;
+        width: 100%;
+        max-width: 800px;
+        height: 450px;
+        overflow: hidden;
+        position: relative;
+      }*/
       /* Imagens da galeria */
-.galeria-slideshow img {
+/*.galeria-slideshow img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     flex-shrink: 0;
     border: none;
-  }
+  }*/
   /* Container das imagens */
-#galeria .fotos {
+/*#galeria .fotos {
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: 100%;
     height: 100%;
     overflow: hidden;
     
-  }
+  }*/
   
   /* Imagens individuais */
-  #galeria .fotos img {
+  /*#galeria .fotos img {
     flex-shrink: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+  }*/
   
   
   /* Botões de navegação */
-  .galeria-button {
+  /*.galeria-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -168,15 +178,15 @@ section p {
     font-size: 18px;
     z-index: 10;
     border-radius: 5px;
-  }
+  }*/
   
-  .galeria-button.left {
+  /*.galeria-button.left {
     left: 10px;
   }
   
   .galeria-button.right {
     right: 10px;
-  }      
+  }*/      
 
 
 /* Seção de Contato */
@@ -232,7 +242,7 @@ footer {
         text-align: center;
         padding: 20px;
         margin-top: 40px;
-    }
+       }
 footer p {
     font-size: 1rem;
     
